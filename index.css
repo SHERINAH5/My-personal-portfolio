@@ -1,0 +1,148 @@
+body {
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+  .hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  
+  .buttons .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #fff;
+    color: #2575fc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn-alt {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  
+  .home-intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  
+  .intro-text {
+    flex: 1 1 300px;
+    max-width: 600px;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .intro-text span {
+    color: #6c63ff; /* purple */
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 10px 0 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #2575fc; /* blue on hover */
+  }
+  
+  .bio {
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .intro-image img {
+    width: 280px;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid #6c63ff;
+    object-fit: cover;
+  }
+  
+  footer {
+    background: white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #2575fc;
+  }
+  .intro-bio {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+  
